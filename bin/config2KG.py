@@ -150,9 +150,8 @@ def main():
     with open(config_path) as config_file:
         config = yaml.load(config_file, Loader=yaml.FullLoader)
     if 'sections' in config:
-        initial_config = copy.deepcopy(config)
         for section in config['sections']:
-            temp_config = copy.deepcopy(initial_config)
+            temp_config = copy.deepcopy(config)
             for subsection in section:
                 if subsection in temp_config:
                     temp_config[subsection].update(section[subsection])
