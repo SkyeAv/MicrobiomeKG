@@ -1,2 +1,2 @@
 ## THIS IS AN OUTDATED REPO
-### See [Tablassert](github.com/SkyeAv/Tablassert) for the Updated Project
+### See [Tablassert](https://github.com/SkyeAv/Tablassert) for the Updated Project
